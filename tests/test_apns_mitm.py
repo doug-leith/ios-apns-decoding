@@ -10,7 +10,7 @@ import pytest
 
 try:
     from ios_decoder import apns_mitm as am
-except ImportError:                     # standalone copy (apple-apns-decoding repository)
+except ImportError:                     # standalone copy (ios-apns-decoding repository)
     import apns_mitm as am
 
 
