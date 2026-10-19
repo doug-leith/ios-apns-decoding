@@ -1,0 +1,29 @@
+\PassOptionsToPackage{obeyspaces,spaces}{url}  % keep (and allow breaks at) spaces in \code{-[Class selector:]}
+\documentclass[sigconf,nonacm]{acmart}
+\settopmatter{printacmref=false,printccs=false,printfolios=true}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+
+\usepackage{graphicx}
+\graphicspath{{../figures/}}
+\usepackage{booktabs,tabularx,array}
+\usepackage{xurl}
+\usepackage{enumitem}
+\usepackage{fvextra}     % Verbatim with line breaking (addon log listing)
+\setlist{leftmargin=*}   % lists flush with the text, not acmart's deep indent
+
+% short shell/protocol names in running text and tables
+\newcommand{\hd}[1]{{\small\urlstyle{tt}\nolinkurl{#1}}}
+% long identifiers (method names, bundle ids) that may break across lines
+\newcommand{\code}[1]{{\urlstyle{tt}\nolinkurl{#1}}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\title{TITLE}
+\author{D.J. Leith}
+\affiliation{\institution{Trinity College Dublin}\city{Dublin}\country{Ireland}}
+\email{doug.leith@tcd.ie}
+% report date: acmart prints no \date; a second affiliation puts it under the email
+\affiliation{\institution{DATE}\country{}}
+
+\begin{document}
+\begin{abstract}

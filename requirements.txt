@@ -1,0 +1,4 @@
+# apns_mitm.py itself needs only the Python standard library; mitmproxy is needed for the addon
+# and for reading .mitm captures, pytest for the tests.
+mitmproxy>=12
+pytest

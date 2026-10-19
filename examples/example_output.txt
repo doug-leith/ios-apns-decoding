@@ -1,0 +1,8 @@
+== flow 00000000-0000-4000-8000-000000000001 ('17.57.146.13', 5223) sni=courier2.push.apple.com alpn=b'' -> serial
+   1767225600.100 -> Connect(0x07) Token=1011...2e2f (32B), State=1, Flags=618, Interface=1, ActiveInterval=5, Carrier=WiFi, SoftwareVersion=16.7.11, SoftwareBuild=20H360, HardwareVersion=iPhone10,1, Certificate=706c...5229 (44B), Nonce=0000...0000 (17B), Signature=0101...0000 (130B), ProtocolVersion=10, RedirectCount=0
+   1767225600.150 <- ConnectResponse(0x08) ConnectedResponse=0, MessageSize=5120, Capabilities=3, LargeMessageSize=51200, ServerTime=1767225600150, GeoRegion=US, ClientIPAddress=c0...01 (4B)
+   1767225600.180 -> Filter(0x09) Token=1011...2e2f (32B), EnabledTopicHash=3c92...4cd2 (20B), EnabledTopicHash=79af...8f1a (20B), EnabledTopicHash=4137...886d (20B), OpportunisticTopicHash=2038...88d0 (20B)
+   1767225600.180 -> PresenceTracking(0x20) MessageID=1, PushToken=1011...2e2f (32B), Salt=81...95, TrackingFlag=0, Timestamp=1767225600200
+   1767225600.180 -> KeepAlive(0x0c) Carrier=WiFi, SoftwareVersion=16.7.11, SoftwareBuild=20H360, HardwareVersion=iPhone10,1, KeepAliveInterval=10, DelayedResponseInterval=600, State=4, SubState=4
+   1767225600.200 <- PresenceTracking(0x20) PresenceActivityMessageID=1, PresenceActivityPushToken=1011...2e2f (32B), PresenceActivityStatus=0
+   1767225600.200 <- KeepAliveAck(0x16) 

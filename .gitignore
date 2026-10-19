@@ -1,0 +1,25 @@
+# ── Network captures (can hold device identifiers) ──
+*.mitm
+apns_decoded.jsonl
+*.jsonl
+# the synthetic example capture used by the README quick start
+!/examples/example.mitm
+
+# ── Python ──
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ── Report build intermediates (report/apns_report.pdf is kept) ──
+report/latex/*.aux
+report/latex/*.bbl
+report/latex/*.blg
+report/latex/*.log
+report/latex/*.out
+report/latex/*.pdf
+report/latex/apns_report.tex
+report/latex/field_table.tex
+report/latex/_*
+report/figures/*.aux
+report/figures/*.log
